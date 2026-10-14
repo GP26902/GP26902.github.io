@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gaurav Haresh Patil | Industrial Engineer Portfolio</title>
+<meta name="description" content="Industrial and mechanical engineer building analytics tools for quality, OEE, line balancing and process improvement. Live projects and source code.">
+<meta property="og:title" content="Gaurav Haresh Patil | Industrial Engineer Portfolio">
+<meta property="og:description" content="Live manufacturing analytics tools: SPC, OEE, Pareto, reliability, line balancing and DMAIC.">
+<meta property="og:type" content="website">
+<style>
+:root{--bg:#f7f8fa;--card:#fff;--text:#1b2430;--muted:#5b6675;--line:#e1e5ea;--accent:#1f6feb;--chip:#eaf1fe;--chipt:#1a4fb0}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1319;--card:#171d26;--text:#e8edf3;--muted:#9aa6b5;--line:#27303c;--accent:#5aa2ff;--chip:#1c2a40;--chipt:#9cc4ff}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+.wrap{max-width:960px;margin:0 auto;padding:48px 20px 40px}
+h1{font-size:2.2rem;line-height:1.2;margin:0 0 6px}
+.title{font-size:1.15rem;color:var(--muted);margin:0 0 14px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px;padding:0;list-style:none}
+.tags li,.chips li{background:var(--chip);color:var(--chipt);border-radius:999px;padding:3px 12px;font-size:.85rem}
+.status{font-weight:600;margin:0 0 18px}
+.links{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 28px}
+a.btn{display:inline-block;padding:8px 16px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--text);text-decoration:none;font-weight:600;font-size:.95rem}
+a.btn:hover,a.btn:focus-visible{border-color:var(--accent);color:var(--accent)}
+a.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+a.primary:hover,a.primary:focus-visible{color:#fff;opacity:.9}
+h2{font-size:1.4rem;margin:36px 0 14px}
+.intro{max-width:720px;color:var(--text)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.card img{display:block;width:100%;height:auto;border-bottom:1px solid var(--line)}
+.body{padding:20px 22px 22px}
+.body h3{margin:0 0 6px;font-size:1.25rem}
+.problem{margin:0 0 12px;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px;padding:0;list-style:none}
+.body ul.facts{margin:0 0 18px;padding-left:20px}
+.more{color:var(--muted);margin-top:22px}
+footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+@media (max-width:560px){h1{font-size:1.8rem}.wrap{padding-top:32px}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <h1>Gaurav Haresh Patil</h1>
+    <p class="title">Industrial Engineer (MIE) | Mechanical Engineer</p>
+    <ul class="tags">
+      <li>Lean Six Sigma Green Belt</li>
+      <li>Process Improvement</li>
+      <li>Quality Engineering</li>
+      <li>Operations</li>
+    </ul>
+    <p class="status">Open to full-time IE / CI roles</p>
+    <div class="links">
+      <a class="btn primary" href="https://www.linkedin.com/in/gaurav-patil-a2bb391b9">LinkedIn</a>
+      <a class="btn" href="https://github.com/GP26902">GitHub</a>
+      <a class="btn" href="mailto:gauravgp26@gmail.com">gauravgp26@gmail.com</a>
+    </div>
+  </header>
+
+  <section aria-labelledby="about">
+    <h2 id="about">About</h2>
+    <p class="intro">I'm an industrial and mechanical engineer with an M.S. in Industrial Engineering from the University of Houston and a Lean Six Sigma Green Belt. I build lightweight analytical tools for the problems I care about on the plant floor: process stability, equipment effectiveness, line balance and defect prioritization. The projects below are live, and the code is public.</p>
+  </section>
+
+  <section aria-labelledby="projects">
+    <h2 id="projects">Projects</h2>
+    <article class="card">
+      <img src="assets/command-center.png" alt="SPC control charts in the Manufacturing Operations Command Center" loading="lazy">
+      <div class="body">
+        <h3>Manufacturing Operations Command Center</h3>
+        <p class="problem">An interactive suite of the analyses plant and quality engineers run every day. Every table is editable, so the sample data can be replaced with real numbers.</p>
+        <ul class="chips">
+          <li>SPC &amp; process capability</li>
+          <li>OEE</li>
+          <li>Pareto analysis</li>
+          <li>MTBF / MTTR</li>
+          <li>Line balancing &amp; takt</li>
+          <li>Six Sigma DMAIC</li>
+        </ul>
+        <ul class="facts">
+          <li>Control charts (X-bar, R, S and attribute) with out-of-control points flagged, plus Cp, Cpk and Cpm.</li>
+          <li>Takt time, bottleneck and capacity-versus-demand checks for production lines.</li>
+          <li>Calculations written as tested Python functions, separate from the interface.</li>
+        </ul>
+        <div class="links">
+          <a class="btn primary" href="https://manufacturing-operations-command-center-qruwsbeh8x9nu6bq5lwnrk.streamlit.app/">Open live app</a>
+          <a class="btn" href="https://github.com/GP26902/Manufacturing-Operations-Command-Center">View source code</a>
+        </div>
+      </div>
+    </article>
+    <p class="more">More projects are being added.</p>
+  </section>
+
+  <footer>Built with Python, Streamlit, Pandas and Plotly. Live apps run on free hosting, so the first load may take a few seconds.</footer>
+</main>
+</body>
+</html>
