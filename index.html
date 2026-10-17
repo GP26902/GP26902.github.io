@@ -6,7 +6,7 @@
 <title>Gaurav Haresh Patil | Industrial Engineer Portfolio</title>
 <meta name="description" content="Industrial and mechanical engineer building analytics tools for quality, OEE, line balancing and process improvement. Live projects and source code.">
 <meta property="og:title" content="Gaurav Haresh Patil | Industrial Engineer Portfolio">
-<meta property="og:description" content="Live engineering analytics tools: SPC, OEE, Pareto, reliability, line balancing, DMAIC and engineering economy.">
+<meta property="og:description" content="Live engineering analytics tools: SPC, OEE, Pareto, reliability, line balancing, DMAIC, engineering economy and plant flow analysis.">
 <meta property="og:type" content="website">
 <style>
 :root{--bg:#f7f8fa;--card:#fff;--text:#1b2430;--muted:#5b6675;--line:#e1e5ea;--accent:#1f6feb;--chip:#eaf1fe;--chipt:#1a4fb0}
@@ -113,7 +113,36 @@ footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);color:v
         </div>
       </div>
     </article>
+    <article class="card" style="margin-top:22px">
+      <img src="assets/sankey-flow.png" alt="Plant material flow and scrap Sankey diagram with yield and scrap recovery tiles in the Flow Sankey Builder" loading="lazy">
+      <div class="body">
+        <h3>Flow Sankey Builder</h3>
+        <p class="problem">A tool that traces where material, energy, time, cost and parts go in a plant and checks that every stage balances. The seven engineering templates use made-up illustrative data, not real plant results; replace it with your own through the editable table or a CSV upload.</p>
+        <ul class="chips">
+          <li>Yield &amp; scrap</li>
+          <li>Energy balance</li>
+          <li>OEE losses</li>
+          <li>Quality / defects</li>
+          <li>Cost flow</li>
+          <li>Supply chain flow</li>
+        </ul>
+        <ul class="facts">
+          <li>Balance check flags any stage where what goes in does not equal what comes out, and names the size of the gap.</li>
+          <li>KPI tiles such as yield, scrap recovery, OEE and first-pass yield recalculate as the flows are edited.</li>
+          <li>228 unit tests cover validation, balance checks, CSV parsing and the templates.</li>
+        </ul>
+        <div class="links">
+          <a class="btn primary" href="https://financial-sankey-builder-unkyenfc7ubcypvwyhbrwn.streamlit.app/">Open live app</a>
+          <a class="btn" href="https://github.com/GP26902/Flow-Sankey-Builder">View source code</a>
+        </div>
+      </div>
+    </article>
     <p class="more">More projects are being added.</p>
+  </section>
+
+  <section aria-labelledby="ideas">
+    <h2 id="ideas">Ideas welcome</h2>
+    <p class="intro">Have an idea for a feature, a dashboard that would be useful on the plant floor, or a whole new dashboard you would like to see? I would like to hear it. Message me on <a href="https://www.linkedin.com/in/gaurav-patil-a2bb391b9">LinkedIn</a> or email <a href="mailto:gauravgp26@gmail.com?subject=Dashboard%20idea">gauravgp26@gmail.com</a>.</p>
   </section>
 
   <footer>Built with Python, Streamlit, Pandas and Plotly. Live apps run on free hosting, so the first load may take a few seconds.</footer>
