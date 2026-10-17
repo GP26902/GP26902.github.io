@@ -12,6 +12,9 @@ Industrial Engineer (MIE) | Mechanical Engineer | Lean Six Sigma Green Belt
 - **Engineering Economy & Facilities Decision Calculator**: life-cycle cost, LED/VFD retrofit payback, defender-vs-challenger replacement analysis, depreciation (SL, DDB, MACRS), project evaluation and buy-vs-lease. Example inputs are illustrative, and the formulas are covered by 48 unit tests.
   [Live app](https://finance-calc-6ftv2fce96mnlceom7fk33.streamlit.app/) · [Source code](https://github.com/GP26902/Finance-Calc)
 
+- **Flow Sankey Builder**: Plant material flow & scrap, Supply chain network, Plant energy flow, Machine / process energy balance, Manufacturing cost flow, Machine time / OEE losses, Quality / defect flow and Personal budget tools in one interactive app (Example inputs are illustrative). 
+  [Live app](https://financial-sankey-builder-unkyenfc7ubcypvwyhbrwn.streamlit.app/) · [Source code](https://github.com/GP26902/Financial-sankey-builder)
+
 ## Contact
 
 [LinkedIn](https://www.linkedin.com/in/gaurav-patil-a2bb391b9) · gauravgp26@gmail.com
