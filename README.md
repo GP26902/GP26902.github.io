@@ -15,6 +15,9 @@ Industrial Engineer (MIE) | Mechanical Engineer | Lean Six Sigma Green Belt
 - **Flow Sankey Builder**: Plant material flow & scrap, Supply chain network, Plant energy flow, Machine / process energy balance, Manufacturing cost flow, Machine time / OEE losses, Quality / defect flow and Personal budget tools in one interactive app (Example inputs are illustrative). 
   [Live app](https://financial-sankey-builder-unkyenfc7ubcypvwyhbrwn.streamlit.app/) · [Source code](https://github.com/GP26902/Financial-sankey-builder)
 
+- **Mechanical Design Explorer**: beam and shaft stress with a safety factor and fatigue check, tolerance stack-up (worst-case, RSS, Monte Carlo) with Cpk and GD&T position tolerance, and pump and pipe system analysis with operating point and cavitation check. Learning and screening tools with illustrative example inputs, covered by 206 tests.
+  [Live app](https://mechanical-design-explorer-dt92wtfsjydzt3htt2zmkg.streamlit.app/) · [Source code](https://github.com/GP26902/mechanical-design-explorer)
+
 ## Contact
 
 [LinkedIn](https://www.linkedin.com/in/gaurav-patil-a2bb391b9) · gauravgp26@gmail.com

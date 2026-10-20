@@ -137,6 +137,31 @@ footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);color:v
         </div>
       </div>
     </article>
+    <article class="card" style="margin-top:22px">
+      <img src="assets/mechanical-design-explorer.png" alt="Shaft stress map, tolerance stack-up gap histogram with Cpk, GD&amp;T position tolerance zone with bonus tolerance and pump and pipe layout coloured by pressure in the Mechanical Design Explorer" loading="lazy">
+      <div class="body">
+        <h3>Mechanical Design Explorer</h3>
+        <p class="problem">Interactive tools for three questions mechanical and manufacturing engineers ask all the time: will this beam or shaft survive, will these parts assemble and which tolerance should be tightened, and where does a pump and pipe system lose pressure or cavitate. Each chapter is a learning and screening tool, not certified design, and the example inputs are illustrative.</p>
+        <ul class="chips">
+          <li>Beam &amp; shaft stress</li>
+          <li>Tolerance stack-up &amp; Cpk</li>
+          <li>GD&amp;T position &amp; bonus tolerance</li>
+          <li>Pump &amp; pipe system</li>
+          <li>Cavitation (NPSH)</li>
+          <li>Safety factor &amp; fatigue</li>
+        </ul>
+        <ul class="facts">
+          <li>Stress map on the deformed shape, shear and moment diagrams, safety factor and an optional Goodman fatigue check, with a small 1D finite-element model cross-checked against closed-form beam equations.</li>
+          <li>Worst-case, RSS and Monte Carlo tolerance stacks with Cpk and a ranking of the dimensions that drive the variation, plus GD&amp;T position zones with bonus tolerance at MMC (based on ASME Y14.5 concepts, not a certified interpretation).</li>
+          <li>Darcy-Weisbach pump and pipe analysis with the operating point, the bottleneck section and an NPSH cavitation check (system-curve analysis, not CFD).</li>
+          <li>206 tests check the calculations against textbook and hand values. Each chapter is one file that appears in the app without editing it.</li>
+        </ul>
+        <div class="links">
+          <a class="btn primary" href="https://mechanical-design-explorer-dt92wtfsjydzt3htt2zmkg.streamlit.app/">Open live app</a>
+          <a class="btn" href="https://github.com/GP26902/mechanical-design-explorer">View source code</a>
+        </div>
+      </div>
+    </article>
     <p class="more">More projects are being added.</p>
   </section>
 
