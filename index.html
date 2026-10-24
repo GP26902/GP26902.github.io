@@ -138,22 +138,24 @@ footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);color:v
       </div>
     </article>
     <article class="card" style="margin-top:22px">
-      <img src="assets/mechanical-design-explorer.png" alt="Shaft stress map, tolerance stack-up gap histogram with Cpk, GD&amp;T position tolerance zone with bonus tolerance and pump and pipe layout coloured by pressure in the Mechanical Design Explorer" loading="lazy">
+      <img src="assets/mechanical-design-explorer.png" alt="Beam stress map on the deformed shape, column strength chart with Euler and Johnson curves, tolerance stack-up gap histogram with Cpk, and pump head against system head for a throttle valve and a variable-speed drive in the Mechanical Design Explorer" loading="lazy">
       <div class="body">
         <h3>Mechanical Design Explorer</h3>
-        <p class="problem">Interactive tools for three questions mechanical and manufacturing engineers ask all the time: will this beam or shaft survive, will these parts assemble and which tolerance should be tightened, and where does a pump and pipe system lose pressure or cavitate. Each chapter is a learning and screening tool, not certified design, and the example inputs are illustrative.</p>
+        <p class="problem">Interactive tools for three questions mechanical and manufacturing engineers ask all the time: will this beam, shaft or column survive, will these parts assemble and which tolerance should be tightened, and where does a pump and pipe system lose pressure, cavitate or waste energy. Each chapter is a learning and screening tool, not certified design, and the example inputs are illustrative.</p>
         <ul class="chips">
-          <li>Beam &amp; shaft stress</li>
+          <li>Beam, shaft &amp; column stress</li>
+          <li>Safety factor &amp; fatigue</li>
           <li>Tolerance stack-up &amp; Cpk</li>
-          <li>GD&amp;T position &amp; bonus tolerance</li>
+          <li>GD&amp;T bonus tolerance (MMC / LMC)</li>
           <li>Pump &amp; pipe system</li>
           <li>Cavitation (NPSH)</li>
-          <li>Safety factor &amp; fatigue</li>
+          <li>Pump energy &amp; VFD savings</li>
         </ul>
         <ul class="facts">
-          <li>Stress map on the deformed shape, shear and moment diagrams, safety factor and an optional Goodman fatigue check, with a small 1D finite-element model cross-checked against closed-form beam equations.</li>
-          <li>Worst-case, RSS and Monte Carlo tolerance stacks with Cpk and a ranking of the dimensions that drive the variation, plus GD&amp;T position zones with bonus tolerance at MMC (based on ASME Y14.5 concepts, not a certified interpretation).</li>
-          <li>Darcy-Weisbach pump and pipe analysis with the operating point, the bottleneck section and an NPSH cavitation check (system-curve analysis, not CFD).</li>
+          <li>Stress map on the deformed shape for five support cases under point and uniform loads, shear and moment diagrams, safety factor, an optional Goodman fatigue check and Euler and Johnson column buckling, with a small 1D finite-element model cross-checked against closed-form beam equations.</li>
+          <li>Worst-case, RSS and Monte Carlo tolerance stacks with normal, uniform or triangular dimensions, Cp, Cpk, ppm, a tolerance budget solver and a ranking of the dimensions that drive the variation, plus GD&amp;T position zones with bonus tolerance at MMC or LMC and a fastener formula (based on ASME Y14.5 concepts, not a certified interpretation).</li>
+          <li>Darcy-Weisbach pump and pipe analysis with the operating point, the bottleneck section, an NPSH cavitation check, parallel or series pumps, tank pressures and altitude, custom fluids, and pump power and yearly energy cost with a throttle valve vs variable-speed drive comparison (system-curve analysis, not CFD).</li>
+          <li>Every calculation is checked against textbook formulas or hand calculations in 568 automated tests.</li>
         </ul>
         <div class="links">
           <a class="btn primary" href="https://mechanical-design-explorer-dt92wtfsjydzt3htt2zmkg.streamlit.app/">Open live app</a>
