@@ -6,7 +6,7 @@ Industrial Engineer (MIE) | Mechanical Engineer | Lean Six Sigma Green Belt
 
 ## Projects
 
-- **Manufacturing Operations Command Center**: SPC, OEE, Pareto, MTBF/MTTR, line balancing and Six Sigma DMAIC tools in one interactive app.
+- **Manufacturing Operations Command Center**: SPC, OEE, Pareto, MTBF/MTTR, line balancing and Gage R&R, plus a continuous-improvement toolkit (DMAIC, FMEA, 5S, 5 Why, fishbone, 8D, Kaizen and a which-tool-when guide) in one interactive app. Sample data is simulated, and the calculations are covered by unit tests.
   [Live app](https://manufacturing-operations-command-center-qruwsbeh8x9nu6bq5lwnrk.streamlit.app/) · [Source code](https://github.com/GP26902/Manufacturing-Operations-Command-Center)
 
 - **Engineering Economy & Facilities Decision Calculator**: life-cycle cost, LED/VFD retrofit payback, defender-vs-challenger replacement analysis, depreciation (SL, DDB, MACRS), project evaluation and buy-vs-lease. Example inputs are illustrative, and the formulas are covered by 48 unit tests.
